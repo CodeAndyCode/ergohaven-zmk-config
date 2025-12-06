@@ -846,10 +846,10 @@
 
         G_En {
             bindings = <
-&kp TAB         &kp T  &kp Q             &kp W         &kp E             &kp R                         &trans  &trans  &trans  &trans  &trans  &trans
-&kp ESC         &kp G  &kp A             &kp S         &kp D             &kp F                         &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp B  &kp Z             &kp X         &kp C             &kp V                         &trans  &trans  &trans  &trans  &trans  &trans
-                       &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 14  &kp SPACE    &tog 13  &trans  &trans  &trans  &trans
+&kp T  &kp TAB         &kp Q             &kp W         &kp E             &kp R                         &trans  &trans  &trans  &trans  &trans  &trans
+&kp G  &kp ESC         &kp A             &kp S         &kp D             &kp F                         &trans  &trans  &trans  &trans  &trans  &trans
+&kp B  &kp LEFT_SHIFT  &kp Z             &kp X         &kp C             &kp V                         &trans  &trans  &trans  &trans  &trans  &trans
+                       &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE  &mo 14    &tog 13  &trans  &trans  &trans  &trans
             >;
 
             label = "G_En";
@@ -860,7 +860,7 @@
 &trans  &kp N6  &kp N7  &trans  &kp N8  &kp N9                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &kp N0                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &mo 15  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &mo 15  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "G_Num";
