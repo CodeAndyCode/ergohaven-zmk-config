@@ -71,7 +71,7 @@
 &trans  &kp N1  &kp N2    &kp N3   &kp N4   &kp N5                       &kp N6              &kp N7         &kp N8       &kp N9               &kp N0        &trans
 &trans  &trans  &trans    &trans   &trans   &kp RET                      &kp LEFT            &kp DOWN       &kp UP       &kp RIGHT            &kp MINUS     &kp EQUAL
 &trans  &trans  &kp HOME  &kp INS  &kp END  &kp DEL                      &kp LC(LEFT_ARROW)  &kp PAGE_DOWN  &kp PAGE_UP  &kp LC(RIGHT_ARROW)  &kp CAPSLOCK  &trans
-                &trans    &trans   &trans   &trans   &kp LALT    &trans  &mo 3               &trans         &trans       &trans
+                &trans    &trans   &trans   &trans   &kp LALT    &trans  &lt 3 BACKSPACE     &trans         &trans       &trans
             >;
 
             display-name = "Nav";
@@ -82,7 +82,7 @@
 &kp TILDE  &kp EXCL   &kp AT_SIGN  &kp HASH              &kp DOLLAR             &kp PRCNT                            &kp CARET      &kp AMPERSAND     &kp ASTRK          &kp LPAR  &kp RPAR      &kp PIPE
 &kp EQUAL  &kp MINUS  &trans       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON                            &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans    &kp UNDER     &kp PLUS
 &trans     &kp SLASH  &trans       &trans                &trans                 &kp DOUBLE_QUOTES                    &kp SQT        &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans    &kp QUESTION  &trans
-                      &kp GRAVE    &trans                &trans                 &mo 3              &trans    &trans  &trans         &trans            &to_en             &to_ru
+                      &kp GRAVE    &trans                &trans                 &lt 3 SPACE        &trans    &trans  &trans         &trans            &to_en             &to_ru
             >;
 
             display-name = "Symbols";
